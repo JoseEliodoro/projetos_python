@@ -42,7 +42,7 @@ class Alarm():
         
     
     def widgets_set_alarme(self):
-        pyglet.font.add_file('../relogio digital/digital-7.ttf')
+        pyglet.font.add_file('digital-7.ttf')
         
         self.c_hora = Label(self.root, text="8", font='digital-7 70', width=1, justify='right', 
                   fg='#0DC400', bg='#000')
